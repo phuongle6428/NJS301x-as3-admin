@@ -13,7 +13,12 @@ export default function Root() {
             navigate('/login')
          }
       }
-      getUserStatus()
+      try {
+         getUserStatus()
+      } catch (error) {
+         navigate('/login')
+      }
+      
    }, [])
 
    return (
