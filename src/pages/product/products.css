@@ -1,0 +1,58 @@
+.products {
+   margin: 0.35rem;
+}
+.products .ant-table-container {
+   border: 1px solid rgba(128, 128, 128, 0.211);
+}
+.products .ant-table-title {
+   display: flex;
+   padding: 0.75rem 0;
+   font-size: 1.25rem;
+   color: grey;
+   justify-content: space-between;
+   align-items: center;
+}
+.products .ant-table-title .add-btn {
+   color: green;
+   border: 1px solid rgba(0, 128, 0, 0.6);
+   font-weight: 500;
+   transition: 0.5s all;
+}
+.products .ant-table-title .add-btn:hover {
+   color: white;
+   background-color: rgba(0, 128, 0, 0.6);
+}
+.products .ant-table-cell {
+   padding: 0.75rem 0.5rem;
+}
+
+.products .ant-table-cell .delete-btn {
+   border: 1px dashed rgba(255, 0, 0, 0.6);
+   color: red;
+   font-weight: 500;
+   transition: 0.5s all;
+}
+.products .ant-table-cell .delete-btn:hover {
+   color: white;
+   background-color: rgba(255, 0, 0, 0.6);
+}
+
+.products .ant-table-cell.img-cell {
+   max-width: 30%;
+}
+.products .ant-table-cell.img-cell img {
+   display: block;
+   max-width: 100%;
+}
+.products .ant-table-cell.action-cell {
+   display: flex;
+   justify-content: space-around;
+}
+.products .search {
+   margin: 1rem 0;
+}
+.products .search h4 {
+   margin: 0.5rem 0;
+   color: black;
+   font-weight: 500;
+}

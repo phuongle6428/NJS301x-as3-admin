@@ -1,0 +1,46 @@
+.dashboard .infoboard {
+   display: flex;
+}
+.dashboard .infoboard .infoboard-item {
+   flex-grow: 1;
+   margin: 0.35rem;
+   padding: 0.4rem;
+   border: 1px solid rgba(128, 128, 128, 0.211);
+   box-shadow: 1px 2px 0.25rem #80808040;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+}
+.dashboard .infoboard .title {
+   font-size: 1.25rem;
+   font-weight: 500;
+   color: black;
+}
+.dashboard .infoboard p {
+   color: black;
+   margin: 0.25rem 0 0.5rem;
+   font-size: 0.75rem;
+   opacity: 0.7;
+}
+.dashboard .infoboard svg {
+   margin-left: auto;
+   display: block;
+}
+.dashboard .tableboard {
+   margin: 0.35rem;
+   padding: 1rem 1.5rem 0 1.5rem;
+   border: 1px solid rgba(128, 128, 128, 0.211);
+   box-shadow: 1px 2px 0.25rem #80808040;
+   border-radius: 8px;
+}
+.dashboard .tableboard .ant-table-container {
+   border: 1px solid rgba(128, 128, 128, 0.211);
+}
+.dashboard .tableboard .ant-table-title {
+   padding: 0.75rem 0;
+   font-size: 1.25rem;
+   color: grey;
+}
+.dashboard .tableboard .ant-table-cell {
+   padding: 0.75rem 0.5rem;
+}

@@ -1,0 +1,59 @@
+.room {
+   margin: 0.35rem;
+   height: 100%;
+   display: flex;
+}
+.room .chat-room-nav {
+   min-width: min-content;
+   width: 20%;
+   border: 1px solid black;
+}
+.room .chat-room-nav > * {
+   padding: 0.5rem;
+   border-bottom: 1px solid black;
+}
+.room .message-container {
+   flex-grow: 1;
+   border: 1px solid black;
+   display: none;
+   flex-direction: column;
+}
+.room .message-container.show {
+   display: flex;
+}
+.room .message-container .message-content {
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+}
+.room .message-container .message-content > * {
+   padding: 0.5rem;
+   border: 1px solid grey;
+   margin: 0.5rem 0;
+   width: 50%;
+}
+.room .message-container .message-content .your-text {
+   margin-left: auto;
+   background-color: aquamarine;
+   border-right: none;
+   border-radius: 10px 0 0 10px;
+}
+.room .message-container .message-content .client-text {
+   border-left: none;
+   border-radius: 0 10px 10px 0px;
+}
+.room .message-container .input-content {
+   display: flex;
+}
+.room .message-container input {
+   min-height: 4rem;
+   font-size: 1.5rem;
+   flex-grow: 1;
+   width: 85%;
+}
+.room .message-container button {
+   flex-grow: 1;
+   appearance: none;
+   border: none;
+   background-color: cornflowerblue;
+}

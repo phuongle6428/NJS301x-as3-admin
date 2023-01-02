@@ -1,0 +1,28 @@
+.logregForm {
+   display: flex;
+   flex-direction: column;
+   margin: 25vh auto 0;
+   width: 25%;
+}
+
+.logregForm>* {
+   margin: 0.5rem 0;
+}
+
+.logregForm>input {
+   border: 1px solid #003580;
+   padding: 0.5rem 0;
+}
+.logregForm > h1 {
+   margin: 0 auto 1rem;
+   font-size: 2rem;
+}
+.logregForm>button {
+   background-color: #0071c2;
+   color: white;
+   font-weight: 500;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 1.5rem;
+}
