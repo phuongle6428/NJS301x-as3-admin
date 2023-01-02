@@ -8,17 +8,13 @@ export default function Root() {
    const navigate = useNavigate()
    useEffect(() => {
       const getUserStatus = async () => {
-         const response = await authAPI.getUserStatus()
-         if(!response) {
+         try {
+            const response = await authAPI.getUserStatus()
+         } catch (error) {
             navigate('/login')
          }
       }
-      try {
-         getUserStatus()
-      } catch (error) {
-         navigate('/login')
-      }
-      
+      getUserStatus()
    }, [])
 
    return (
